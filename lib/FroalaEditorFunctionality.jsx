@@ -207,7 +207,7 @@ var FroalaEditorFunctionality = {
     }
 
     this.oldModel = modelContent;
-    this.props.onModelChange(modelContent);
+    this.props.onModelChange(modelContent, this.props.id);
   },
 
   initListeners: function() {
